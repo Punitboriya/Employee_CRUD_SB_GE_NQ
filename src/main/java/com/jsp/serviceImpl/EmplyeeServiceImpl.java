@@ -7,7 +7,7 @@ import com.jsp.service.EmployeeService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+//this  is Service
 @Service
 public class EmplyeeServiceImpl implements EmployeeService {
 
