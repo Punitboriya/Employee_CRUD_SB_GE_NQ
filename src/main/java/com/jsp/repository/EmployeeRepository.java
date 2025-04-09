@@ -10,7 +10,7 @@ import java.util.List;
 
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
 
-    @Query("select e from Employee e where e.name = :name")
-    List<Employee> findByName(@Param("name") String name);
+//    @Query("select e from Employee e where e.name = :name")
+//    List<Employee> findByName(@Param("name") String name);
 
 }

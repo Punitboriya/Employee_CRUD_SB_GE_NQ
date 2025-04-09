@@ -49,9 +49,9 @@ public class EmployeeController {
         return ResponseEntity.ok("Employee deleted of id :" + id);
     }
 
-    @GetMapping("/name/{name}")
-    public ResponseEntity<List<Employee>> getByName (@PathVariable String name){
-        List<Employee> empByName = employeeService.getByName(name);
-        return new ResponseEntity<>(empByName,HttpStatus.OK);
-    }
+//    @GetMapping("/name/{name}")
+//    public ResponseEntity<List<Employee>> getByName (@PathVariable String name){
+//        List<Employee> empByName = employeeService.getByName(name);
+//        return new ResponseEntity<>(empByName,HttpStatus.OK);
+//    }
 }

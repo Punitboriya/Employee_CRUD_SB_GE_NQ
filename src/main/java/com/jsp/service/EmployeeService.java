@@ -16,5 +16,5 @@ public interface EmployeeService {
 
     void delete(int id);
 
-    List<Employee> getByName(String name);
+//    List<Employee> getByName(String name);
 }
